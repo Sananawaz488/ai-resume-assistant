@@ -10,7 +10,7 @@ from docx import Document
 
 
 APP_TITLE = "ResumeLens — ATS Resume Analyzer"
-MODEL_NAME = "gemini-2.5-flash"
+MODEL_NAME = "gemini-3.6-flash"
 
 
 def extract_pdf_text(file_bytes: bytes) -> str:
